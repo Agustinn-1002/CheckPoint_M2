@@ -12,7 +12,7 @@ import * as data from '../db.json';
 
 configure({ adapter: new Adapter() });
 
-describe('<ProductCard />', () => {
+xdescribe('<ProductCard />', () => {
   let productCard, state, store;
   const mockStore = configureStore([thunk]);
   let products = data.products;

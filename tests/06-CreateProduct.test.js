@@ -14,7 +14,7 @@ import CreateProduct from '../src/components/CreateProduct/CreateProduct';
 
 configure({ adapter: new Adapter() });
 
-describe('<CreateProduct/>', () => {
+xdescribe('<CreateProduct/>', () => {
    const state = { products: data.products };
    const mockStore = configureStore([thunk]);
    const { CREATE_PRODUCT } = actions;

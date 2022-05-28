@@ -23,7 +23,7 @@ axios.defaults.adapter = require('axios/lib/adapters/http');
 
 configure({ adapter: new Adapter() });
 
-describe('<Home />', () => {
+xdescribe('<Home />', () => {
    let home, store, state, getAllProductsSpy, componentDidMountSpy;
    global.fetch = nodeFetch
    const mockStore = configureStore([thunk]);
