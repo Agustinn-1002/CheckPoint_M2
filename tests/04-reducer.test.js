@@ -7,7 +7,7 @@ import {
 } from '../src/redux/actions';
 import * as data from '../db.json';
 
-xdescribe('Reducer', () => {
+describe('Reducer', () => {
    const state = {
       products: [],
       productDetail: {},
