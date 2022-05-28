@@ -20,7 +20,7 @@ export class Home extends Component {
         <h3>Products</h3>
         {this.props.products && this.props.products.map(product => {
           return (
-            <ProductCard id={product.id} price={product.price} name={product.name} stock={product.stock}/>
+            <ProductCard id={product.id} price={product.price} name={product.name} stock={product.stock} image={product.image}/>
           )
         })}
       </div>
