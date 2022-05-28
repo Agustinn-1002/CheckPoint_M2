@@ -17,7 +17,7 @@ axios.defaults.adapter = require('axios/lib/adapters/http');
 
 configure({ adapter: new Adapter() });
 
-xdescribe('<ProductDetail />', () => {
+describe('<ProductDetail />', () => {
   global.fetch = nodeFetch
   let productDetail, useSelectorStub, useSelectorFn, useEffect;
   const noProd = {
