@@ -17,7 +17,7 @@ import nock from 'nock';
 import nodeFetch from 'node-fetch'
 axios.defaults.adapter = require('axios/lib/adapters/http');
 
-xdescribe('Actions', () => {
+describe('Actions', () => {
   const mockStore = configureStore([thunk]);
   const store = mockStore({ products: [] });
   global.fetch = nodeFetch
